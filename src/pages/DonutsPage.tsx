@@ -3,7 +3,6 @@ import { TitleSection } from '../components/TitleSection';
 import PanierIcon from '../assets/Panier.svg';
 import Hero from '../components/Hero';
 import { DonutDuMois } from "../components/DonutDuMois";
-import { AssortimentBox } from "../components/AssortimentBox";
 import { useCart } from '../Context/CartContext';
 
 const allDonuts = [

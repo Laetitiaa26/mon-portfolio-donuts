@@ -1,4 +1,3 @@
-import React from 'react';
 import Hero from '../components/Hero';
 import InfoCard from '../components/InfoCard';
 import { MainButton } from '../components/MainButton';
