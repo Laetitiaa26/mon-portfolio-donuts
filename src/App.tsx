@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import  OuNousTrouver  from "./pages/OuNousTrouver";
 import FAQPage from "./pages/FAQPage";
 import CartPage from "./pages/CartPage";
+import MentionsLegales from "./pages/MentionsLegales";
 
 function App() {
 return (
@@ -22,6 +23,7 @@ return (
           <Route path="/OuNousTrouver" element={<OuNousTrouver />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="/panier" element={<CartPage />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
         </Routes>
       </main>
       <Footer />

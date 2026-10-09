@@ -50,6 +50,8 @@ export const Footer = () => {
       <div className="mt-12 md:mt-16 text-center border-t border-white/20 pt-8">
         <p className="text-[#FFAAE6] font-light text-xs md:text-sm px-4">
           © 2026 Cami Donuts. Tous droits réservés. <br className="md:hidden" /> Design réalisé avec gourmandise.
+          <br />
+          Site de démonstration · <a href="/mentions-legales" className="underline hover:text-white transition-colors">Mentions légales &amp; confidentialité</a>
         </p>
       </div>
     </footer>
